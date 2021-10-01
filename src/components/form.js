@@ -42,12 +42,20 @@ const useStyles = createUseStyles({
 });
 
 const LoginForm = () => {
-    const Card = styled.div``;
+    const Card = styled.div`
+    box-sizing: border-box;
+    max-width: 410px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;`;
+    
     const classes = useStyles();
 
 
     return(
-        <Card className={classes.card}>
+        <Card>
             <form className={classes.form}>
                 <input className={classes.input} placeholder='email'/>
                 <input className={classes.input} placeholder='Password'/>
