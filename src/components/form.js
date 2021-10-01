@@ -41,19 +41,18 @@ const useStyles = createUseStyles({
       }
 });
 
+const Card = styled.div`
+box-sizing: border-box;
+max-width: 410px;
+margin: 0 auto;
+padding: 0 2rem;
+display: flex;
+flex-direction: column;
+align-items: center;`;
+
 const LoginForm = () => {
-    const Card = styled.div`
-    box-sizing: border-box;
-    max-width: 410px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;`;
     
     const classes = useStyles();
-
-
     return(
         <Card>
             <form className={classes.form}>
