@@ -1,4 +1,3 @@
-//implement the styled-components logic here.
 import React from "react";
 import styled from "styled-components";
 
@@ -33,8 +32,6 @@ const Button = styled.button`
   margin-bottom: 1rem;
   font-size: 0.8rem;
   cursor: pointer;`;
-
-
 
 export {Card, Form, Input, Button};
 
