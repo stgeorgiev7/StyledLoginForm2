@@ -42,16 +42,18 @@ const useStyles = createUseStyles({
 });
 
 const LoginForm = () => {
+    const Card = styled.div``;
     const classes = useStyles();
 
+
     return(
-        <div className={classes.card}>
+        <Card className={classes.card}>
             <form className={classes.form}>
                 <input className={classes.input} placeholder='email'/>
                 <input className={classes.input} placeholder='Password'/>
                 <button className={classes.button}>Login</button>
             </form>
-        </div>
+        </Card>
     );
 
 };
