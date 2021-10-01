@@ -34,19 +34,7 @@ const Button = styled.button`
   font-size: 0.8rem;
   cursor: pointer;`;
 
-const LoginForm = () => {
-    
-    return(
-        <Card>
-            <Form>
-            <Input placeholder='email'/>
-            <Input placeholder='Password'/>
-            <Button>LOGIN</Button>
-            </Form> 
-        </Card>
-    );
 
-};
 
-export default LoginForm;
+export {Card, Form, Input, Button};
 
